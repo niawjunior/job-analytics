@@ -1,0 +1,206 @@
+[
+    {
+      "name": "Angular",
+      "type": "Angular"
+    },
+    {
+      "name": "React",
+      "type": "React"
+    },
+    {
+      "name": "Vue",
+      "type": "Vue"
+    },
+    {
+      "name": "C#",
+      "type": "C#"
+    },
+    {
+      "name": "CSHARP",
+      "type": "C#"
+    },
+    {
+      "name": "FrontEnd",
+      "type": "FrontEnd"
+    },
+    {
+      "name": "BackEnd",
+      "type": "BackEnd"
+    },
+    {
+      "name": "JAVA",
+      "type": "JAVA"
+    },
+    {
+      "name": ".NET",
+      "type": ".NET"
+    },
+    {
+      "name": "DotNet",
+      "type": ".NET"
+    },
+    {
+      "name": "SENIOR",
+      "type": "Senior"
+    },
+    {
+      "name": "Junior",
+      "type": "Junior"
+    },
+    {
+      "name": "JavaScript",
+      "type": "JavaScript"
+    },
+    {
+      "name": "IT Support",
+      "type": "IT Support"
+    },
+    {
+      "name": "Database",
+      "type": "Database"
+    },
+    {
+      "name": "Data Engineer",
+      "type": "Data Engineer"
+    },
+    {
+      "name": "Data Science",
+      "type": "Data Science"
+    },
+    {
+      "name": "DevOps",
+      "type": "DevOps"
+    },
+    {
+      "name": "Designer",
+      "type": "Designer"
+    },
+    {
+      "name": "Blockchain",
+      "type": "Blockchain"
+    },
+    {
+      "name": "Network",
+      "type": "Network"
+    },
+    {
+      "name": "Analyst",
+      "type": "Analyst"
+    },
+    {
+      "name": "System",
+      "type": "System"
+    },
+    {
+      "name": "Big Data",
+      "type": "Big Data"
+    },
+    {
+      "name": "Full Stack",
+      "type": "Full Stack"
+    },
+    {
+      "name": "Mobile",
+      "type": "Mobile"
+    },
+    {
+      "name": "Android",
+      "type": "Android"
+    },
+    {
+      "name": "IOS",
+      "type": "IOS"
+    },
+    {
+      "name": "Cloud",
+      "type": "Cloud"
+    },
+    {
+      "name": "UX/UI",
+      "type": "UX/UI"
+    },
+    {
+      "name": "Consult",
+      "type": "Consult"
+    },
+    {
+      "name": "Infrastructure",
+      "type": "Infrastructure"
+    },
+    {
+      "name": "Security",
+      "type": "Security"
+    },
+    {
+      "name": "Maketing",
+      "type": "Maketing"
+    },
+    {
+      "name": "Automate",
+      "type": "Automate"
+    },
+    {
+      "name": "Administrator",
+      "type": "Administrator"
+    },
+    {
+      "name": "SQL",
+      "type": "SQL"
+    },
+    {
+      "name": "PHP",
+      "type": "PHP"
+    },
+    {
+      "name": "Oracle",
+      "type": "Oracle"
+    },
+    {
+      "name": "Python",
+      "type": "Python"
+    },
+    {
+      "name": "RPA",
+      "type": "RPA"
+    },
+    {
+      "name": "VB.NET",
+      "type": "VB.Net"
+    },
+    {
+      "name": "SWIFT",
+      "type": "Swift"
+    },
+    {
+      "name": "MATLAB",
+      "type": "MATLAB"
+    },
+    {
+      "name": "Rust",
+      "type": "Rust"
+    },
+    {
+      "name": "Kotlin",
+      "type": "Kotlin"
+    },
+    {
+      "name": "GO",
+      "type": "GO"
+    },
+    {
+      "name": "TypeScript",
+      "type": "TypeScript"
+    },
+    {
+      "name": "F#",
+      "type": "F#"
+    },
+    {
+      "name": "Tester",
+      "type": "QA"
+    },
+    {
+      "name": "SAP",
+      "type": "SAP"
+    }
+  ]
