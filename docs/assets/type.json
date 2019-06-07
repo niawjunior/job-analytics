@@ -16,10 +16,6 @@
       "type": "C#"
     },
     {
-      "name": "CSHARP",
-      "type": "C#"
-    },
-    {
       "name": "FrontEnd",
       "type": "FrontEnd"
     },
@@ -36,10 +32,6 @@
       "type": ".NET"
     },
     {
-      "name": "DotNet",
-      "type": ".NET"
-    },
-    {
       "name": "SENIOR",
       "type": "Senior"
     },
@@ -50,6 +42,10 @@
     {
       "name": "JavaScript",
       "type": "JavaScript"
+    },
+    {
+      "name": "NodeJs",
+      "type": "NodeJs"
     },
     {
       "name": "IT Support",
@@ -202,5 +198,21 @@
     {
       "name": "SAP",
       "type": "SAP"
+    },
+    {
+      "name": "Agile",
+      "type": "Agile"
+    },
+    {
+      "name": "ASP.NET",
+      "type": "ASP.NET"
+    },
+    {
+      "name": "Testing",
+      "type": "Testing"
+    },
+    {
+      "name": "Web",
+      "type": "Web"
     }
   ]

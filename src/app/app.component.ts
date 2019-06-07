@@ -21,8 +21,12 @@ export class AppComponent implements OnInit {
     const options = {
       keys: ['position'],
       includeScore: true,
-      threshold: 0.3,
-    };
+      tokenize: true,
+      matchAllTokens: true,
+      findAllMatches: true,
+      threshold: 0.2,
+      location: 0
+        };
     const fuse = new Fuse(this.job, options);
     this.list.forEach(item => {
       const getData: any = fuse.search(item.name.toUpperCase());
@@ -34,7 +38,9 @@ export class AppComponent implements OnInit {
         });
       }
     });
-
+    this.listFilter = this.listFilter.sort(function(a, b) {
+      return b.length - a.length;
+    });
     const chart = am4core.create('bar-chart-vertical', am4charts.XYChart);
     chart.scrollbarX = new am4core.Scrollbar();
     chart.data = this.listFilter;
