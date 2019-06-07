@@ -13,24 +13,17 @@ export class AppComponent implements OnInit {
   job: any =  data.default;
   list: any = type.default;
   headerText;
-  jobFilter: any = [];
   listFilter: any = [];
   constructor() {
   }
   ngOnInit() {
     this.headerText = this.job.length;
-    this.job.forEach(item => {
-      this.jobFilter.push({
-        position: item.position.toUpperCase(),
-        url: item.url
-      });
-    });
     const options = {
       keys: ['position'],
       includeScore: true,
       threshold: 0.3,
     };
-    const fuse = new Fuse(this.jobFilter, options);
+    const fuse = new Fuse(this.job, options);
     this.list.forEach(item => {
       const getData: any = fuse.search(item.name.toUpperCase());
       if (getData.length !== 0) {
@@ -80,19 +73,5 @@ export class AppComponent implements OnInit {
       return chart.colors.getIndex(target.dataItem.index);
     });
     chart.cursor = new am4charts.XYCursor();
-  }
-
- groupBy(list, keyGetter) {
-    const map = new Map();
-    list.forEach((item) => {
-         const key = keyGetter(item);
-         const collection = map.get(key);
-         if (!collection) {
-             map.set(key, [item]);
-         } else {
-             collection.push(item);
-         }
-    });
-    return map;
   }
 }
